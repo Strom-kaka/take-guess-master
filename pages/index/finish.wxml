@@ -1,0 +1,24 @@
+<view  class="icon-tips">
+    <icon size="100" type="success" ></icon>
+</view>
+
+<view class="nomore-tips">这一组猜完啦~</view>
+
+<view class="nomore-text">
+    您已完成本组<text>#{{typeName}}#</text>类型下题目，智慧在发光！
+</view>
+
+<navigator url="list" >
+    <view class="nomore-answer">查看谜题</view>
+</navigator>
+
+
+<view class="nomore-button" bindtap ="changeGroup">
+    <button type="primary">换一组</button>
+</view>
+
+<navigator url="index" redirect >
+    <view class="nomore-button finish-button" >
+        <button type="default">换个类型试</button>
+    </view>
+</navigator>

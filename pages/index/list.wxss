@@ -1,0 +1,29 @@
+/* pages/index/list.wxss */
+
+.list-type{
+    display: inline-block;
+    line-height: 60rpx;
+    font-size: 26rpx;
+    padding: 0 30rpx;
+    background: #dfdfdf;
+    border: 2px solid #c9c9c9;
+    border-radius: 10rpx;
+    margin: 30rpx;
+}
+
+.list-box{
+    background: #fff;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 24rpx 30rpx;
+    margin-bottom: 30rpx;
+}
+
+.list-title{
+    font-size: 34rpx;
+    padding-bottom: 14rpx;
+}
+.list-answer{
+    font-size: 26rpx;
+    color: #9b9b9b;
+}

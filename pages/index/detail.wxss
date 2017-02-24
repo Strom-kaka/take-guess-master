@@ -1,0 +1,51 @@
+/* pages/index/detail.wxss */
+
+
+@import "index.wxss";
+
+.index-line{
+  margin-top: 30rpx;
+  margin-bottom: 0;
+}
+.index-button{
+  margin-top: 0;
+}
+.detail-top{
+  margin-top: 30rpx;
+  background: #fff;
+  padding-left: 30rpx;
+}
+.detail-title{
+  font-size: 26rpx;
+  line-height: 80rpx;
+  color: #e64340;
+  border-bottom: 1px solid #f4f4f4;
+}
+.detail-type{
+  padding-top: 30rpx;
+  padding-right: 30rpx;
+}
+.detail-name{
+  font-size: 34rpx;
+  color: #000;
+  line-height: 80rpx;
+}
+.detail-num{
+  font-size: 26rpx;
+  color: #a9a9a9;
+  line-height: 80rpx;
+}
+.detail-container{
+  color: #a9a9a9;
+  font-size: 26rpx;
+  margin: 10rpx 0;
+  padding-bottom: 30rpx;
+  padding-right: 30rpx;
+}
+
+.detail-tips{
+  font-size: 28rpx;
+  color: #6a7fa5;
+  line-height: 100rpx;
+  padding: 0 30rpx;
+}

@@ -1,0 +1,7 @@
+/* pages/index/finish.wxss */
+
+@import "nomore.wxss";
+
+.finish-button{
+    margin-top: 30rpx;
+}

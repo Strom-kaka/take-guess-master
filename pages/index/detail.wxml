@@ -1,0 +1,51 @@
+
+<view class="detail-top">
+
+
+<picker bindchange="bindPickerChange" value="{{typeIndex}}" range="{{array}}">
+    <view class="detail-title">#{{typeName}}#</view>
+</picker>
+
+
+    <view class="detail-type over-flow">
+        <view class="detail-name float-left">谜面</view>
+        <view class="detail-num float-right">{{curNum +1}}/{{allNum}}</view>
+    </view>
+    <view class="detail-container">{{title}}</view>
+</view>
+
+<form>
+<view class="index-line">
+    <view class="index-title">谜底</view>
+    <input class="index-input" 
+           style="color:{{greenColor == true?'#09bb07':'#b0b0b0'}}"   
+           bindinput="bindKeyInput" 
+           value="{{answer}}"/>
+</view>
+
+
+<view class="over-flow ">
+    <view class="float-right detail-tips" bindtap="helpUser">猜不到？</view>
+</view>
+
+<view class="index-button">
+    <button type="primary" bindtap="nextQuestion" formType="reset">下一题</button>
+</view>
+
+</form>
+
+<view class="mask-box " hidden="{{isError ? true : false}}" bindtap="hideMask">
+    <view class="mask hei4lin">
+        <view class="line black">猜错啦</view>
+        <view class="line">再猜猜看</view>
+        <view class="line" bindtap="showAnswer">告诉我答案</view>
+        <view class="line border-none" bindtap="changeGroup">换一组试试</view>
+    </view>
+</view>
+
+<view class="mask-box " hidden="{{isTips ? true : false}}" bindtap="hideMask">
+    <view class="mask hei2lin">
+        <view class="line" bindtap="changeGroup">换一组试试</view>
+        <view class="line border-none" bindtap="showAnswer">告诉我答案</view>
+    </view>
+</view>

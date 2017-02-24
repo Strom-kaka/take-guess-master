@@ -1,0 +1,52 @@
+/**index.wxss**/
+
+.index-logo{
+  width:120rpx;
+  height: 120rpx;
+  display: block;
+  margin: 40rpx auto;
+}
+.index-line{
+  overflow: hidden;
+  background: #fff;
+  padding: 0 30rpx;
+  margin-bottom: 30rpx;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+.index-title{
+  float: left;
+  font-size: 34rpx;
+  color: #000;
+  line-height: 86rpx;
+}
+.index-arrow{
+  float: right;
+  display: block;
+  width: 18rpx;
+  height: 28rpx;
+  margin-top: 29rpx
+}
+.index-type{
+  float: right;
+  font-size: 34rpx;
+  color: #999999;
+  line-height: 86rpx;
+  margin-right: 30rpx;
+}
+
+.index-button{
+  padding: 0 30rpx;
+  margin-top: 50rpx;
+}
+.index-input{
+  display: block;
+  float: left;
+  font-size: 34rpx;
+  color: #353535;
+  height: 36rpx;
+  line-height: 36rpx;
+  margin-top: 20rpx;
+  margin-left: 10rpx;
+  width: 560rpx;
+}

@@ -1,0 +1,34 @@
+/* pages/index/nomore.wxss */
+
+.icon-tips{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 96rpx;
+}
+
+.nomore-tips{
+    font-size: 40rpx;
+    text-align: center;
+    margin: 30rpx 0;
+}
+
+.nomore-answer{
+    color: #576b95;
+    font-size: 28rpx;
+    text-align: center;
+}
+.nomore-text{
+    font-size: 28rpx;
+    color: #888888;
+    text-align: center;
+}
+.nomore-text text{
+    color: #e64340;
+}
+
+.nomore-button{
+    padding: 0 30rpx;
+    margin-top: 65rpx;
+}

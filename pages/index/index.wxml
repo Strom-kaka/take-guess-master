@@ -1,0 +1,34 @@
+<!--index.wxml-->
+
+<image class="index-logo" src="../../images/logo.png"></image>
+
+
+<!--<view>
+  <navigator url="detail" >跳转到新页面</navigator>
+</view>-->
+<picker bindchange="bindPickerChange" value="{{typeIndex}}" range="{{array}}">
+  <view class="index-line">
+      <view class="index-title">猜谜类型</view>
+      <image class="index-arrow" src="../../images/arrow.png"></image>    
+      <view class="index-type">{{array[typeIndex]}}</view>
+  </view>
+</picker>
+
+<view class="index-line">
+    <view class="index-title">关键词</view>
+    <input class="index-input" maxlength="8" bindinput="bindKeyInput" placeholder="输入您感兴趣的关键词"/>
+</view>
+
+<view class="index-button">
+    <!--<navigator url="detail" >-->
+        <button type="primary" bindtap="begin">开始猜谜</button>
+    <!--</navigator>-->
+</view>
+
+<view class="mask-box " bindtap="hideMask" hidden="{{isError ? true : false}}">
+    <view class="mask hei2lin">
+        <view class="line black">没搜到哟~</view>
+        <view class="line border-none">换个关键词试试</view>
+    </view>
+</view>
+

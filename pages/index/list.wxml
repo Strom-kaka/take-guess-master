@@ -1,0 +1,10 @@
+
+<text class="list-type">搞笑</text>
+
+
+<block wx:for="{{subject}}">
+    <view class="list-box">
+        <view class="list-title">{{index +1}}.{{item.title}}</view>
+        <view class="list-answer">{{item.answer}}</view>
+    </view>
+</block>
